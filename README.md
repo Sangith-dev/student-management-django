@@ -13,6 +13,9 @@ This project demonstrates core Django concepts including models, forms, views, t
 - ❌ Delete students
 - 🔔 Success messages for actions
 - 🧹 Clean GitHub repository with `.gitignore`
+- 🔍 Search students by name and email
+- 📄 Pagination for student list using Django Paginator
+
 
 ---
 
@@ -25,7 +28,22 @@ This project demonstrates core Django concepts including models, forms, views, t
 
 ---
 
-##  Project Structure
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+git clone https://github.com/Sangith-dev/student-management-django.git
+cd student-management-django
+python -m venv env
+env\Scripts\activate
+pip install django
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+
+
 
 ##  Screenshots
 
@@ -41,3 +59,9 @@ This project demonstrates core Django concepts including models, forms, views, t
 ### Update Student
 ![Update Student](screenshots/update_student.png)
 
+
+## Author
+
+Sangith M
+- GitHub: https://github.com/Sangith-dev  
+- LinkedIn: https://www.linkedin.com/in/sanjith-saji-453082315
